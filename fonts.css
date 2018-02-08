@@ -1,4 +1,9 @@
 @font-face {
   font-family: 'Karla';
-  src: url("https://fonts.googleapis.com/css?family=Karla")
+  src: url("Fonts/Karla-Regular.ttf");
+}
+
+@@font-face {
+  font-family: 'Karla Bold'
+  src: url("Fonts/Karla-Bold.ttf")
 }
