@@ -3,12 +3,30 @@
   font-weight: 800;
 }
 
+.marginleft {
+  margin-left: 200px;
+}
+.marginright {
+  margin-right: 75px;
+}
+
 .introduction {
   font-family: 'Karla';
   font-weight: 800;
   font-size: 25px;
 }
-
+.leftpane {
+  width: 25%;
+  float: left;
+}
+.middlepane {
+  width: 50%;
+  float: right;
+}
+.rightpane {
+  width: 50%;
+  float: right;
+}
 .content .aboutme {
   font-family: 'Karla';
   font-size: 15px;
@@ -21,11 +39,10 @@
 
 .navigation {
   font-family: 'Karla';
+  float: left;
 }
 
-#medialinks {
+.nobullet {
   list-style-type: none;
-  text-decoration: none;
 }
-
 a:hover,a:visited,a:link,a:active { color:#000; }
