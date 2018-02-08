@@ -1,3 +1,31 @@
-h1{
+.title {
+  font-family: 'Karla';
+  font-weight: 800;
+}
+
+.introduction {
+  font-family: 'Karla';
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.content .aboutme {
+  font-family: 'Karla';
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.frontpic {
+  float: right;
+}
+
+.navigation {
   font-family: 'Karla';
 }
+
+#medialinks {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+a:hover,a:visited,a:link,a:active { color:#000; }
