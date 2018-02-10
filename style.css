@@ -1,47 +1,53 @@
+/*containers for main page */
+.leftpane {
+  width: 15%;
+  float: left;
+  margin-top: 60px
+}
+.middlepane {
+  width: 50%;
+  float: left;
+  margin: 50px 10px
+}
+.rightpane {
+  width: 30%;
+  float: right;
+  margin: 100px 10px
+}
+
+/*main page*/
 .title {
   font-family: 'Karla';
   font-weight: 800;
 }
-
-.marginleft {
-  margin-left: 200px;
-}
-.marginright {
-  margin-right: 75px;
-}
-
 .introduction {
   font-family: 'Karla';
   font-weight: 800;
   font-size: 25px;
-}
-.leftpane {
-  width: 25%;
-  float: left;
-}
-.middlepane {
-  width: 50%;
-  float: right;
-}
-.rightpane {
-  width: 25%;
-  float: right;
 }
 .aboutme {
   font-family: 'Karla';
   font-size: 15px;
   line-height: 1.5;
 }
-
-.frontpic {
-  float: right;
-}
-
 .navigation {
   font-family: 'Karla';
-  float: left;
+  line-height: 1.5;
 }
 
+/* cool things modifiers */
+.titlecool {
+  font-family: 'Karla';
+  font-weight: 800;
+  margin: 50px 50px
+}
+.list {
+  font-family: 'Karla';
+  font-size: 20px;
+  margin: 50px 50px
+}
+
+/*general */
 .nobullet {
   list-style-type: none;
 }
